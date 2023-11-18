@@ -7,8 +7,8 @@ def check_for_commits(username, repo):
     return len(commits)
 
 if __name__ == "__main__":
-    username = "<your-github-username>"
-    repo = "<your-repository-name>"
+    username = "ankuronlyme"
+    repo = "CI-CD-Pipeline-Project"
     
     commit_count = check_for_commits(username, repo)
     print(f"Number of commits: {commit_count}")
